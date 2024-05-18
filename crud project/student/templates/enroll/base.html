@@ -1,0 +1,19 @@
+<!Doctype html>
+{% load static %}
+<html>
+    <head>
+        <title>
+            Student Details!!!
+        </title>
+        <link rel="stylesheet" href = "{% static 'css/bootstrap.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="text-center alert alert-danger">CRUD Project</h3>
+            {% block content %}
+
+            {% endblock content %}
+        </div>
+        <script src = "{% static 'js/bootstrap.js' %}"></script>
+    </body>
+</html>
